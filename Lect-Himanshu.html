@@ -1,0 +1,162 @@
+<!Doctype html>
+<HTML lang="en">
+  <HEAD>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <TITLE>User Page</TITLE>
+    <style>
+      .container{
+        padding:0%;
+        margin:0%;
+        
+      }
+      
+      
+      body{
+        background-color:#FFCC00;
+        
+      }
+      
+      a{
+        text-decoration:none;
+      }
+      
+      header{
+        font-weight:700;
+        font-size:30px;
+        color:white;
+        background-color:#f44336;
+        margin:10px;
+        padding:20px 20px 20px 40px;
+        text-shadow: 0 0 3px #FF0000;
+/*         <!--border-style:groove;> */
+      }
+      header:hover{
+        color:smokewhite;
+        background-color:red;
+      }
+      
+      nav{
+        border: white solid 2px;
+        background-color:white;
+        border-radius:7px;
+        font-size:16px;
+        font-weight:700;
+        font-family:Sans-serif;
+      }
+      
+      .lk1,.lk2{
+        margin-right:30px;
+        color: gray;
+        border:2px solid white;
+      }
+      
+      .lk1:hover{
+        border: 2px solid gray;
+        background-color:gray;
+        color:white;
+        padding:6px;
+        margin:4px;
+        transition-duration:1;
+      }
+      #lk2:hover{
+        border: 2px solid gray;
+        background-color:gray;
+        transition-duration:0.8;
+        padding:6px;
+        margin:4px;
+        color:white;
+      }
+      
+      section{
+        background-color:powderblue;
+      }
+      
+      footer{
+        background-color:limegreen;
+      }
+      
+      input[type=text], select {
+        position:static;
+      width: 60%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      text-align:center;
+      width: 30%;
+      background-color: #f44336;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: red;
+    }
+
+    #_form{
+      margin:20px;
+      justify-content:center;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+      
+    </style>
+  </HEAD>
+  <BODY>
+    <div class="container">
+      <header>Heading</header>
+      <nav>
+        <ul style="list-style-type:none;">
+          <li><a class="lk1" href="www.google.com">Home</a>
+            <a class="lk2">|</a>
+            <a class="lk1" href="www.instagram.com">Work Place</a>
+          <a class="lk2">|</a>
+            <a class="lk1">About</a>
+            <a class="lk2">|</a>
+            <a class="lk1">Help</a></li>
+          
+        </ul>
+      </nav>
+      <section>
+        <aside><span>This is advertisement section</span></aside>
+        <article>This is article section
+        <br>
+          <div id="_form">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </article>
+      </section>
+      <hr>
+      <footer>Copyright<small>@</small> 2021<a style="margin-right:10px; margin-left:10px;">||</a> Link <a style="margin-right:10px; margin-left:10px;">||</a> Address <a style="margin-right:10px; margin-left:10px;">||</a> Report
+	<br><br>
+	<address>Sector 23, Palam Vihar, Ansal Plaza</address>
+	</footer>
+    </div>
+  </BODY>
+</HTML>
